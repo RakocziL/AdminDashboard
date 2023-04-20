@@ -106,8 +106,56 @@ body{
         height:50px;
     }
 .introMenu{
-    background-color: black;
+    background-color: #06b6d4;
+    padding-left:50px;
+    padding-right:100px;
+
+    display:grid;
+    grid-template-columns: repeat(10, 1fr);
+    align-items: center;
+    gap:15px;
 }
+    #bigPic{
+        height: 100px;
+        grid-column: 1/2;
+    }
+    .intro{
+        grid-column: 2/5;
+        
+        display: flex;
+        flex-direction: column;
+        gap: 6px;
+    }
+        #hi{
+            font-size: 14px;
+        }
+        #name{
+            font-size: 22px;
+            font-weight: bold;
+        }
+    .buttons{
+        background-color: bisque;
+        color: #155e75;
+        height: 35px;
+        width:90px;
+        font-size: 14px;
+        border-style: none;
+        border-radius: 25px;
+    }
+        .buttons:hover{
+            background-color: burlywood;
+        }.buttons:active{
+            transform: scale(1.1);
+        }
+        #buttonNew{
+            grid-column: 8/9;
+        }
+        #buttonUpload{
+            grid-column: 9/10;
+        }
+        #buttonShare{
+            grid-column: 10/11;
+        }
 .content{
     background-color: brown;
 }
