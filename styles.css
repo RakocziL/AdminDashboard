@@ -70,6 +70,7 @@ body{
     }
 .searchLine{
     background-color: #06b6d4;
+    color:#155e75;
     padding-left: 50px;
     padding-right: 20px;
 
@@ -81,9 +82,20 @@ body{
         margin-right: 10px;
     }
     .searchField{
+        background-color:lightblue;
+        height: 25px;
+        width: 500px;
+        border: none;
+        border-radius: 15px;
+        padding-left: 10px;
+        padding-right: 10px;
     }
+        .searchField:focus{
+            outline: none;
+            
+        }
     #bellIcon{
-        margin-left: 600px;
+        margin-left: 200px;
         margin-right: 20px;
     }
     .searchLine p{
